@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Big Hero 6",
+  releaseDate: "2014-10-24",
+  rating: 7.7,
+  banner: "movies/big-hero-6/content/poster-mid.webp",
+  link: "movies/big-hero-6/splash.html"
+},
+
+{
   title: "Tangled",
   releaseDate: "2010-11-24",
   rating: 7.6,
