@@ -2,6 +2,22 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Storks",
+  releaseDate: "2016-09-22",
+  rating: 6.7,
+  banner: "movies/storks/content/poster-mid.webp",
+  link: "movies/storks/splash.html"
+},
+
+{
+  title: "Storks",
+  releaseDate: "2016-09-22",
+  rating: 6.7,
+  banner: "movies/storks/content/poster-mid.webp",
+  link: "movies/storks/splash.html"
+},
+
+{
   title: "Rango",
   releaseDate: "2011-03-02",
   rating: 6.9,
