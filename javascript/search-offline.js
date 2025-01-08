@@ -10,6 +10,14 @@ const movies = [
 },
 
 {
+  title: "Tangled",
+  releaseDate: "2010-11-24",
+  rating: 7.6,
+  banner: "movies/tangled/content/poster-mid.webp",
+  link: "movies/tangled/splash.html"
+},
+
+{
   title: "Storks",
   releaseDate: "2016-09-22",
   rating: 6.7,
