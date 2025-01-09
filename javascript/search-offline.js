@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Coco",
+  releaseDate: "2017-10-27",
+  rating: 8.2,
+  banner: "movies/coco/content/poster-mid.webp",
+  link: "movies/coco/splash.html"
+},
+
+{
   title: "Wonka",
   releaseDate: "2023-12-06",
   rating: 7.1,
