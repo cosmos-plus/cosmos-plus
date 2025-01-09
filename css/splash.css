@@ -116,26 +116,28 @@ html {
 
 @media only screen and (max-width: 600px) {
 .main-poster {
-    height: 370px;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
-    width: 250px;
+    height: 45%;
+    width: auto;
     border-radius: 6px;
     -webkit-box-shadow: 10px 6px 20px 0px rgba(0,0,0,0.41);
     -moz-box-shadow: 10px 6px 20px 0px rgba(0,0,0,0.41);
     box-shadow: 10px 6px 20px 0px rgba(0,0,0,0.41);
 }
 .movie-info {
-    font-size: 12px;
+    font-size: 1.5dvh;
     position: absolute;
-    left: 210px;
+    left: 180px;
+    display: block;
     text-align: left;
     width: 150px;
     padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
-    top: 420px;
+    top: 54%;
+    
 
 }
  .play-button {
@@ -149,7 +151,7 @@ html {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 160px;
+    bottom: 10px;
     padding-left: 18px;
     font-size: 24px;
     height: 40px;
@@ -162,33 +164,42 @@ html {
     font-size: 20px;
     position: absolute;
     text-align: center;
-    top: 390px;
+    display: block;
+    top: 48%;
     left: 50%;
     transform: translateX(-50%);
     max-width: 80%;
 
 }
 .description {
-    font-size: 13px;
+    font-size: 1.5dvh;
     text-align: left;
     max-width: 45%;
-    max-height: 170px;
-    top: 420px;
+    top: 54%;
     padding-top: 25px;
-    padding-left: 25px;
+    padding-left: 15px;
     padding-right: 40px;
     position: absolute;
     left: 0px;
-    height: 75%;
-
+    width: 150px;
+    overflow: hidden; /* Hide overflowed text */
+    display: -webkit-box; /* Set display to WebKit-based box model */
+    -webkit-line-clamp: 8; /* Limit to 4 lines */
+    -webkit-box-orient: vertical; /* Set box orientation to vertical */
+    text-overflow: ellipsis; /* Add ellipsis at the end */
+    line-height: 1.5em; /* Adjust line height for proper spacing */
+    max-height: calc(1.4em * 8); /* Match height to 4 lines of text */
 }
+
+
 .splash-container {
     display: block;
     top: 100px;
-    height: 100%;
-    width: 95%;
+    height: 80%;
+    width: 95dvw;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    overflow: hidden;
 }
 }

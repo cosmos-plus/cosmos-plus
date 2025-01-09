@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Catch Me If You Can",
+  releaseDate: "2002-12-16",
+  rating: 8.0,
+  banner: "movies/catch-me-if-you-can/content/poster-mid.webp",
+  link: "movies/catch-me-if-you-can/splash.html"
+},
+
+{
   title: "Big Hero 6",
   releaseDate: "2014-10-24",
   rating: 7.7,
