@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Kingsman The Secret Service",
+  releaseDate: "2015-01-24",
+  rating: 7.6,
+  banner: "movies/kingsman-the-secret-service/content/poster-mid.webp",
+  link: "movies/kingsman-the-secret-service/splash.html"
+},
+
+{
   title: "Shutter Island",
   releaseDate: "2010-02-14",
   rating: 8.2,
