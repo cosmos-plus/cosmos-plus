@@ -40,15 +40,6 @@ const movies = [
   banner: "movies/rango/content/poster-mid.webp",
   link: "movies/rango/splash.html"
 },
-
-{
-  title: "Steamboat Willie",
-  releaseDate: "1928-05-15",
-  rating: 7.3,
-  banner: "movies/steamboat-willie/content/poster-mid.webp",
-  link: "movies/steamboat-willie/splash.html"
-},
-  
 ];
 
 let moviesPerPage = 36; // Number of movies to display per page
