@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Shutter Island",
+  releaseDate: "2010-02-14",
+  rating: 8.2,
+  banner: "movies/shutter-island/content/poster-mid.webp",
+  link: "movies/shutter-island/splash.html"
+},
+
+{
   title: "Lilo  Stitch",
   releaseDate: "2002-06-21",
   rating: 7.5,
