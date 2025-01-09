@@ -2,11 +2,11 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
-  title: "Singin in the Rain",
-  releaseDate: "1952-04-09",
-  rating: 8.1,
-  banner: "movies/singin-in-the-rain/content/poster-mid.webp",
-  link: "movies/singin-in-the-rain/splash.html"
+  title: "How to Train Your Dragon",
+  releaseDate: "2010-03-18",
+  rating: 7.8,
+  banner: "movies/how-to-train-your-dragon/content/poster-mid.webp",
+  link: "movies/how-to-train-your-dragon/splash.html"
 },
 
 {

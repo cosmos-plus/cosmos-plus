@@ -117,20 +117,20 @@ function updateTimeElapsed() {
     let posterPath;
 
     if (currentEpilink.includes('/movies/')) {
-        posterPath = currentEpilink.substring(0, currentEpilink.length - 9) + "poster.webp";
+        posterPath = currentEpilink.substring(0, currentEpilink.length - 9) + "poster-mid.webp";
     } else if (currentEpilink.includes('/tv-shows/') && currentEpilink.includes("episode-")) {
         // Extracting the episode number from the URL
         let episodeNumber = currentEpilink.match(/episode-(\d+)/)[1];
 
         // Checking if episode number is single digit or not
         if (episodeNumber.length === 1) {
-            posterPath = currentEpilink.substring(0, currentEpilink.length - 23) + "poster.webp";
+            posterPath = currentEpilink.substring(0, currentEpilink.length - 23) + "poster-mid.webp";
         } else {
-            posterPath = currentEpilink.substring(0, currentEpilink.length - 24) + "poster.webp";
+            posterPath = currentEpilink.substring(0, currentEpilink.length - 24) + "poster-mid.webp";
         }
     } else {
         // Default poster path if it doesn't match either case
-        posterPath = currentEpilink.substring(0, currentEpilink.length - 9) + "poster.webp";
+        posterPath = currentEpilink.substring(0, currentEpilink.length - 9) + "poster-mid.webp";
     }
 
     // Check if the current link is already in local storage
