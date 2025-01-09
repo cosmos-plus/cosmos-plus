@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Singin in the Rain",
+  releaseDate: "1952-04-09",
+  rating: 8.1,
+  banner: "movies/singin-in-the-rain/content/poster-mid.webp",
+  link: "movies/singin-in-the-rain/splash.html"
+},
+
+{
   title: "Catch Me If You Can",
   releaseDate: "2002-12-16",
   rating: 8.0,
