@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "TRON Legacy",
+  releaseDate: "2010-12-14",
+  rating: 6.5,
+  banner: "movies/tron-legacy/content/poster-mid.webp",
+  link: "movies/tron-legacy/splash.html"
+},
+
+{
   title: "Kung Fu Panda",
   releaseDate: "2008-06-04",
   rating: 7.3,
