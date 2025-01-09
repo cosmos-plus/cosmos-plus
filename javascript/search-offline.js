@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Lilo  Stitch",
+  releaseDate: "2002-06-21",
+  rating: 7.5,
+  banner: "movies/lilo--stitch/content/poster-mid.webp",
+  link: "movies/lilo--stitch/splash.html"
+},
+
+{
   title: "The Wild Robot",
   releaseDate: "2024-09-12",
   rating: 8.4,
