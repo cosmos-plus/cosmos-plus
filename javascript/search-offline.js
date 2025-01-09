@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Wild Robot",
+  releaseDate: "2024-09-12",
+  rating: 8.4,
+  banner: "movies/the-wild-robot/content/poster-mid.webp",
+  link: "movies/the-wild-robot/splash.html"
+},
+
+{
   title: "Cars",
   releaseDate: "2006-06-08",
   rating: 7.0,
