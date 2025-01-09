@@ -204,7 +204,6 @@ video {
 .video-progress {
   position: absolute;
   height: 8.4px;
-  overflow-x: hidden;
   width: 100%;
   bottom: 0px;
   left: 50%;
@@ -213,7 +212,6 @@ video {
   padding-bottom: 60px;
   pointer-events: all;
   background-color: rgba(0, 0, 0, 0.368);
-  backdrop-filter: blur(3px)
 }
 progress {
   -webkit-appearance: none;
@@ -252,7 +250,7 @@ progress::-moz-progress-bar {
 .seek-tooltip {
   display: none;
   position: absolute;
-  top: -50px;
+  top: -20px;
   margin-left: -20px;
   font-size: 12px;
   padding: 3px;
