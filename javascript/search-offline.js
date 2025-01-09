@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Kung Fu Panda",
+  releaseDate: "2008-06-04",
+  rating: 7.3,
+  banner: "movies/kung-fu-panda/content/poster-mid.webp",
+  link: "movies/kung-fu-panda/splash.html"
+},
+
+{
   title: "Singin in the Rain",
   releaseDate: "1952-04-09",
   rating: 8.1,
