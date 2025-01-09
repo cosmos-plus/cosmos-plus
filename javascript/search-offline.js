@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Wonka",
+  releaseDate: "2023-12-06",
+  rating: 7.1,
+  banner: "movies/wonka/content/poster-mid.webp",
+  link: "movies/wonka/splash.html"
+},
+
+{
   title: "TRON Legacy",
   releaseDate: "2010-12-14",
   rating: 6.5,
