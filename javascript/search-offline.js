@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Pitch Perfect 3",
+  releaseDate: "2017-12-20",
+  rating: 6.5,
+  banner: "movies/pitch-perfect-3/content/poster-mid.webp",
+  link: "movies/pitch-perfect-3/splash.html"
+},
+
+{
   title: "Pitch Perfect 2",
   releaseDate: "2015-05-07",
   rating: 6.9,
