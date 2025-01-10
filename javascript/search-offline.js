@@ -2,11 +2,11 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
-  title: "Kingsman The Secret Service",
-  releaseDate: "2015-01-24",
-  rating: 7.6,
-  banner: "movies/kingsman-the-secret-service/content/poster-mid.webp",
-  link: "movies/kingsman-the-secret-service/splash.html"
+  title: "Borderlands",
+  releaseDate: "2024-08-07",
+  rating: 5.8,
+  banner: "movies/borderlands/content/poster-mid.webp",
+  link: "movies/borderlands/splash.html"
 },
 
 {
@@ -15,6 +15,14 @@ const movies = [
   rating: 8.2,
   banner: "movies/shutter-island/content/poster-mid.webp",
   link: "movies/shutter-island/splash.html"
+},
+
+{
+  title: "Kingsman The Secret Service",
+  releaseDate: "2015-01-24",
+  rating: 7.6,
+  banner: "movies/kingsman-the-secret-service/content/poster-mid.webp",
+  link: "movies/kingsman-the-secret-service/splash.html"
 },
 
 {
