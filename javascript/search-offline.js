@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Transformers The Last Knight",
+  releaseDate: "2017-06-16",
+  rating: 6.1,
+  banner: "movies/transformers-the-last-knight/content/poster-mid.webp",
+  link: "movies/transformers-the-last-knight/splash.html"
+},
+
+{
   title: "Transformers Age of Extinction",
   releaseDate: "2014-06-25",
   rating: 5.9,
