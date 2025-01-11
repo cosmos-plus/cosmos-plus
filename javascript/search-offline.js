@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Avengers Infinity War",
+  releaseDate: "2018-04-25",
+  rating: 8.2,
+  banner: "movies/avengers-infinity-war/content/poster-mid.webp",
+  link: "movies/avengers-infinity-war/splash.html"
+},
+
+{
   title: "Avengers Age of Ultron",
   releaseDate: "2015-04-22",
   rating: 7.3,
@@ -312,6 +320,14 @@ const movies = [
   banner: "movies/rango/content/poster-mid.webp",
   link: "movies/rango/splash.html"
 },
+
+{
+  title: "aaaaaaaainvnqeriqeijnidakj cwqd9-134-iuf13-iu13n-ifu13n4f-iun13i4nf1i3nf",
+  releaseDate: "2030-10-11",
+  rating: 10.1,
+  banner: "images/show-more.webp",
+  link: "#*"
+}
 ];
 
 let moviesPerPage = 36; // Number of movies to display per page
