@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Avengers",
+  releaseDate: "2012-04-25",
+  rating: 7.7,
+  banner: "movies/the-avengers/content/poster-mid.webp",
+  link: "movies/the-avengers/splash.html"
+},
+
+{
   title: "Lone Survivor",
   releaseDate: "2013-12-24",
   rating: 7.4,
