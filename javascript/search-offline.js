@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Transformers Dark of the Moon",
+  releaseDate: "2011-06-28",
+  rating: 6.2,
+  banner: "movies/transformers-dark-of-the-moon/content/poster-mid.webp",
+  link: "movies/transformers-dark-of-the-moon/splash.html"
+},
+
+{
   title: "Transformers Revenge of the Fallen",
   releaseDate: "2009-06-19",
   rating: 6.2,
