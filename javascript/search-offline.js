@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Blade Runner 2049",
+  releaseDate: "2017-10-04",
+  rating: 7.6,
+  banner: "movies/blade-runner-2049/content/poster-mid.webp",
+  link: "movies/blade-runner-2049/splash.html"
+},
+
+{
   title: "Tarzan",
   releaseDate: "1999-06-18",
   rating: 7.4,
