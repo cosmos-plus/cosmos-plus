@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Baytown Outlaws",
+  releaseDate: "2012-08-27",
+  rating: 6.0,
+  banner: "movies/the-baytown-outlaws/content/poster-mid.webp",
+  link: "movies/the-baytown-outlaws/splash.html"
+},
+
+{
   title: "The Hangover",
   releaseDate: "2009-06-02",
   rating: 7.3,
