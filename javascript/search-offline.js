@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Real Steel",
+  releaseDate: "2011-09-28",
+  rating: 7.0,
+  banner: "movies/real-steel/content/poster-mid.webp",
+  link: "movies/real-steel/splash.html"
+},
+
+{
   title: "Blade Runner 2049",
   releaseDate: "2017-10-04",
   rating: 7.6,
