@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Jurassic Park",
+  releaseDate: "1993-06-11",
+  rating: 8.0,
+  banner: "movies/jurassic-park/content/poster-mid.webp",
+  link: "movies/jurassic-park/splash.html"
+},
+
+{
   title: "Real Steel",
   releaseDate: "2011-09-28",
   rating: 7.0,
