@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The SpongeBob Movie Sponge on the Run",
+  releaseDate: "2020-08-14",
+  rating: 7.5,
+  banner: "movies/the-spongebob-movie-sponge-on-the-run/content/poster-mid.webp",
+  link: "movies/the-spongebob-movie-sponge-on-the-run/splash.html"
+},
+
+{
   title: "Bee Movie",
   releaseDate: "2007-10-28",
   rating: 6.0,
