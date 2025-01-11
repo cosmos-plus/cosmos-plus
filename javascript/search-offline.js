@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Transformers One",
+  releaseDate: "2024-09-11",
+  rating: 8.1,
+  banner: "movies/transformers-one/content/poster-mid.webp",
+  link: "movies/transformers-one/splash.html"
+},
+
+{
   title: "Transformers Rise of the Beasts",
   releaseDate: "2023-06-06",
   rating: 7.3,
