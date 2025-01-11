@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Terminal",
+  releaseDate: "2004-06-17",
+  rating: 7.3,
+  banner: "movies/the-terminal/content/poster-mid.webp",
+  link: "movies/the-terminal/splash.html"
+},
+
+{
   title: "Transformers One",
   releaseDate: "2024-09-11",
   rating: 8.1,
