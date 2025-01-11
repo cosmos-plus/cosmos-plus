@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Tarzan",
+  releaseDate: "1999-06-18",
+  rating: 7.4,
+  banner: "movies/tarzan/content/poster-mid.webp",
+  link: "movies/tarzan/splash.html"
+},
+
+{
   title: "Toy Story 4",
   releaseDate: "2019-06-19",
   rating: 7.5,
