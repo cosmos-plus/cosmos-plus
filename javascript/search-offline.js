@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Avengers Age of Ultron",
+  releaseDate: "2015-04-22",
+  rating: 7.3,
+  banner: "movies/avengers-age-of-ultron/content/poster-mid.webp",
+  link: "movies/avengers-age-of-ultron/splash.html"
+},
+
+{
   title: "The Avengers",
   releaseDate: "2012-04-25",
   rating: 7.7,
