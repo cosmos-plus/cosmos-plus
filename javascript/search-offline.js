@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Lone Survivor",
+  releaseDate: "2013-12-24",
+  rating: 7.4,
+  banner: "movies/lone-survivor/content/poster-mid.webp",
+  link: "movies/lone-survivor/splash.html"
+},
+
+{
   title: "Jurassic Park",
   releaseDate: "1993-06-11",
   rating: 8.0,
