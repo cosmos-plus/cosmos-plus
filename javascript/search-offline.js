@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Hangover",
+  releaseDate: "2009-06-02",
+  rating: 7.3,
+  banner: "movies/the-hangover/content/poster-mid.webp",
+  link: "movies/the-hangover/splash.html"
+},
+
+{
   title: "The SpongeBob Movie Sponge on the Run",
   releaseDate: "2020-08-14",
   rating: 7.5,
