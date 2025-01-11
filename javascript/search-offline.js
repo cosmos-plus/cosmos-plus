@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Ted 2",
+  releaseDate: "2015-06-25",
+  rating: 6.3,
+  banner: "movies/ted-2/content/poster-mid.webp",
+  link: "movies/ted-2/splash.html"
+},
+
+{
   title: "Ted",
   releaseDate: "2012-06-29",
   rating: 6.4,
