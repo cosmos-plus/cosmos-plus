@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Avengers Endgame",
+  releaseDate: "2019-04-24",
+  rating: 8.2,
+  banner: "movies/avengers-endgame/content/poster-mid.webp",
+  link: "movies/avengers-endgame/splash.html"
+},
+
+{
   title: "Avengers Infinity War",
   releaseDate: "2018-04-25",
   rating: 8.2,
