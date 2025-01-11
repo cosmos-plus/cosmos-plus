@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Transformers Revenge of the Fallen",
+  releaseDate: "2009-06-19",
+  rating: 6.2,
+  banner: "movies/transformers-revenge-of-the-fallen/content/poster-mid.webp",
+  link: "movies/transformers-revenge-of-the-fallen/splash.html"
+},
+
+{
   title: "Transformers",
   releaseDate: "2007-06-27",
   rating: 6.8,
