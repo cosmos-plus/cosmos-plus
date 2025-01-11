@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Transformers",
+  releaseDate: "2007-06-27",
+  rating: 6.8,
+  banner: "movies/transformers/content/poster-mid.webp",
+  link: "movies/transformers/splash.html"
+},
+
+{
   title: "Avengers Endgame",
   releaseDate: "2019-04-24",
   rating: 8.2,
