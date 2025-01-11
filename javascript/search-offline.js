@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Toy Story",
+  releaseDate: "1995-10-30",
+  rating: 8.0,
+  banner: "movies/toy-story/content/poster-mid.webp",
+  link: "movies/toy-story/splash.html"
+},
+
+{
   title: "Ted 2",
   releaseDate: "2015-06-25",
   rating: 6.3,
