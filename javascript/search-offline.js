@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Finding Nemo",
+  releaseDate: "2003-05-30",
+  rating: 7.8,
+  banner: "movies/finding-nemo/content/poster-mid.webp",
+  link: "movies/finding-nemo/splash.html"
+},
+
+{
   title: "The Baytown Outlaws",
   releaseDate: "2012-08-27",
   rating: 6.0,
