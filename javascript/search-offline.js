@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Finding Dory",
+  releaseDate: "2016-06-16",
+  rating: 7.0,
+  banner: "movies/finding-dory/content/poster-mid.webp",
+  link: "movies/finding-dory/splash.html"
+},
+
+{
   title: "Finding Nemo",
   releaseDate: "2003-05-30",
   rating: 7.8,
