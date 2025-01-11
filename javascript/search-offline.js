@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Transformers Age of Extinction",
+  releaseDate: "2014-06-25",
+  rating: 5.9,
+  banner: "movies/transformers-age-of-extinction/content/poster-mid.webp",
+  link: "movies/transformers-age-of-extinction/splash.html"
+},
+
+{
   title: "Transformers Dark of the Moon",
   releaseDate: "2011-06-28",
   rating: 6.2,
