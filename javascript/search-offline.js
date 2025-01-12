@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Return of the Jedi",
+  releaseDate: "1983-05-25",
+  rating: 7.9,
+  banner: "movies/return-of-the-jedi/content/poster-mid.webp",
+  link: "movies/return-of-the-jedi/splash.html"
+},
+
+{
   title: "The Empire Strikes Back",
   releaseDate: "1980-05-20",
   rating: 8.4,
