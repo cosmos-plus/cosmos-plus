@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Star Wars Episode III - Revenge of the Sith",
+  releaseDate: "2005-05-17",
+  rating: 7.4,
+  banner: "movies/star-wars-episode-iii---revenge-of-the-sith/content/poster-mid.webp",
+  link: "movies/star-wars-episode-iii---revenge-of-the-sith/splash.html"
+},
+
+{
   title: "Star Wars Episode II - Attack of the Clones",
   releaseDate: "2002-05-15",
   rating: 6.6,
