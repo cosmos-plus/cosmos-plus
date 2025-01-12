@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Pirates of the Caribbean The Curse of the Black Pearl",
+  releaseDate: "2003-07-09",
+  rating: 7.8,
+  banner: "movies/pirates-of-the-caribbean-the-curse-of-the-black-pearl/content/poster-mid.webp",
+  link: "movies/pirates-of-the-caribbean-the-curse-of-the-black-pearl/splash.html"
+},
+
+{
   title: "The Dark Knight Rises",
   releaseDate: "2012-07-17",
   rating: 7.8,
