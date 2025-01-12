@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Batman",
+  releaseDate: "2022-03-01",
+  rating: 7.7,
+  banner: "movies/the-batman/content/poster-mid.webp",
+  link: "movies/the-batman/splash.html"
+},
+
+{
   title: "Return of the Jedi",
   releaseDate: "1983-05-25",
   rating: 7.9,
