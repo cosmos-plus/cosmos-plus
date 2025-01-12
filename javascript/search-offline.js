@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Pirates of the Caribbean Dead Mans Chest",
+  releaseDate: "2006-07-06",
+  rating: 7.4,
+  banner: "movies/pirates-of-the-caribbean-dead-mans-chest/content/poster-mid.webp",
+  link: "movies/pirates-of-the-caribbean-dead-mans-chest/splash.html"
+},
+
+{
   title: "Pirates of the Caribbean The Curse of the Black Pearl",
   releaseDate: "2003-07-09",
   rating: 7.8,
