@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Star Wars",
+  releaseDate: "1977-05-25",
+  rating: 8.2,
+  banner: "movies/star-wars/content/poster-mid.webp",
+  link: "movies/star-wars/splash.html"
+},
+
+{
   title: "Rogue One A Star Wars Story",
   releaseDate: "2016-12-14",
   rating: 7.5,
