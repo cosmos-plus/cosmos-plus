@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Field of Dreams",
+  releaseDate: "1989-04-21",
+  rating: 7.1,
+  banner: "movies/field-of-dreams/content/poster-mid.webp",
+  link: "movies/field-of-dreams/splash.html"
+},
+
+{
   title: "All Dogs Go to Heaven",
   releaseDate: "1989-11-17",
   rating: 6.8,
