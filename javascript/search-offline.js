@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Star Wars Episode II - Attack of the Clones",
+  releaseDate: "2002-05-15",
+  rating: 6.6,
+  banner: "movies/star-wars-episode-ii---attack-of-the-clones/content/poster-mid.webp",
+  link: "movies/star-wars-episode-ii---attack-of-the-clones/splash.html"
+},
+
+{
   title: "Star Wars Episode I - The Phantom Menace",
   releaseDate: "1999-05-19",
   rating: 6.6,
