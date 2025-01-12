@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Pirates of the Caribbean At Worlds End",
+  releaseDate: "2007-05-19",
+  rating: 7.3,
+  banner: "movies/pirates-of-the-caribbean-at-worlds-end/content/poster-mid.webp",
+  link: "movies/pirates-of-the-caribbean-at-worlds-end/splash.html"
+},
+
+{
   title: "Pirates of the Caribbean Dead Mans Chest",
   releaseDate: "2006-07-06",
   rating: 7.4,
