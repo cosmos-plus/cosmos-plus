@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Pirates of the Caribbean On Stranger Tides",
+  releaseDate: "2011-05-15",
+  rating: 6.6,
+  banner: "movies/pirates-of-the-caribbean-on-stranger-tides/content/poster-mid.webp",
+  link: "movies/pirates-of-the-caribbean-on-stranger-tides/splash.html"
+},
+
+{
   title: "Pirates of the Caribbean At Worlds End",
   releaseDate: "2007-05-19",
   rating: 7.3,
