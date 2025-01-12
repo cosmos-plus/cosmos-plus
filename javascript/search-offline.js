@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "All Dogs Go to Heaven",
+  releaseDate: "1989-11-17",
+  rating: 6.8,
+  banner: "movies/all-dogs-go-to-heaven/content/poster-mid.webp",
+  link: "movies/all-dogs-go-to-heaven/splash.html"
+},
+
+{
   title: "The Terminal",
   releaseDate: "2004-06-17",
   rating: 7.3,
