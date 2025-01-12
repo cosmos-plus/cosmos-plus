@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Dark Knight Rises",
+  releaseDate: "2012-07-17",
+  rating: 7.8,
+  banner: "movies/the-dark-knight-rises/content/poster-mid.webp",
+  link: "movies/the-dark-knight-rises/splash.html"
+},
+
+{
   title: "Batman Begins",
   releaseDate: "2005-06-10",
   rating: 7.7,
