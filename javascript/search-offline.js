@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Star Wars Episode I - The Phantom Menace",
+  releaseDate: "1999-05-19",
+  rating: 6.6,
+  banner: "movies/star-wars-episode-i---the-phantom-menace/content/poster-mid.webp",
+  link: "movies/star-wars-episode-i---the-phantom-menace/splash.html"
+},
+
+{
   title: "Field of Dreams",
   releaseDate: "1989-04-21",
   rating: 7.1,
