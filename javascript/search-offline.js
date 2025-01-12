@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Pirates of the Caribbean Dead Men Tell No Tales",
+  releaseDate: "2017-05-23",
+  rating: 6.7,
+  banner: "movies/pirates-of-the-caribbean-dead-men-tell-no-tales/content/poster-mid.webp",
+  link: "movies/pirates-of-the-caribbean-dead-men-tell-no-tales/splash.html"
+},
+
+{
   title: "Pirates of the Caribbean On Stranger Tides",
   releaseDate: "2011-05-15",
   rating: 6.6,
