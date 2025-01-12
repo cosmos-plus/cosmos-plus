@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Shooter",
+  releaseDate: "2007-03-22",
+  rating: 7.1,
+  banner: "movies/shooter/content/poster-mid.webp",
+  link: "movies/shooter/splash.html"
+},
+
+{
   title: "Pirates of the Caribbean Dead Men Tell No Tales",
   releaseDate: "2017-05-23",
   rating: 6.7,
