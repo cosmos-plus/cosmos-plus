@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Book of Life",
+  releaseDate: "2014-10-01",
+  rating: 7.5,
+  banner: "movies/the-book-of-life/content/poster-mid.webp",
+  link: "movies/the-book-of-life/splash.html"
+},
+
+{
   title: "Shooter",
   releaseDate: "2007-03-22",
   rating: 7.1,
