@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Inception",
+  releaseDate: "2010-07-15",
+  rating: 8.4,
+  banner: "movies/inception/content/poster-mid.webp",
+  link: "movies/inception/splash.html"
+},
+
+{
   title: "The Book of Life",
   releaseDate: "2014-10-01",
   rating: 7.5,
