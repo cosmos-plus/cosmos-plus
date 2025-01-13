@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Ice Age Continental Drift",
+  releaseDate: "2012-06-27",
+  rating: 6.4,
+  banner: "movies/ice-age-continental-drift/content/poster-mid.webp",
+  link: "movies/ice-age-continental-drift/splash.html"
+},
+
+{
   title: "Ice Age Collision Course",
   releaseDate: "2016-06-23",
   rating: 6.1,
