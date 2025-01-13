@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "13 Hours The Secret Soldiers of Benghazi",
+  releaseDate: "2016-01-14",
+  rating: 7.3,
+  banner: "movies/13-hours-the-secret-soldiers-of-benghazi/content/poster-mid.webp",
+  link: "movies/13-hours-the-secret-soldiers-of-benghazi/splash.html"
+},
+
+{
   title: "Penguins of Madagascar",
   releaseDate: "2014-11-22",
   rating: 6.5,
