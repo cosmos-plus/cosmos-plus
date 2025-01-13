@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Penguins of Madagascar",
+  releaseDate: "2014-11-22",
+  rating: 6.5,
+  banner: "movies/penguins-of-madagascar/content/poster-mid.webp",
+  link: "movies/penguins-of-madagascar/splash.html"
+},
+
+{
   title: "Hacksaw Ridge",
   releaseDate: "2016-10-07",
   rating: 8.2,
