@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Ice Age",
+  releaseDate: "2002-03-10",
+  rating: 7.4,
+  banner: "movies/ice-age/content/poster-mid.webp",
+  link: "movies/ice-age/splash.html"
+},
+
+{
   title: "The Santa Clause",
   releaseDate: "1994-11-11",
   rating: 6.5,
