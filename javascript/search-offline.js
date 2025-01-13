@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Ice Age Dawn of the Dinosaurs",
+  releaseDate: "2009-06-26",
+  rating: 6.8,
+  banner: "movies/ice-age-dawn-of-the-dinosaurs/content/poster-mid.webp",
+  link: "movies/ice-age-dawn-of-the-dinosaurs/splash.html"
+},
+
+{
   title: "Ice Age The Meltdown",
   releaseDate: "2006-03-29",
   rating: 6.7,
