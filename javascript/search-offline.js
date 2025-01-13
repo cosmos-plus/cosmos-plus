@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Santa Clause",
+  releaseDate: "1994-11-11",
+  rating: 6.5,
+  banner: "movies/the-santa-clause/content/poster-mid.webp",
+  link: "movies/the-santa-clause/splash.html"
+},
+
+{
   title: "13 Hours The Secret Soldiers of Benghazi",
   releaseDate: "2016-01-14",
   rating: 7.3,
