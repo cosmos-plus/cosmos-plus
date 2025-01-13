@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Hacksaw Ridge",
+  releaseDate: "2016-10-07",
+  rating: 8.2,
+  banner: "movies/hacksaw-ridge/content/poster-mid.webp",
+  link: "movies/hacksaw-ridge/splash.html"
+},
+
+{
   title: "Inception",
   releaseDate: "2010-07-15",
   rating: 8.4,
