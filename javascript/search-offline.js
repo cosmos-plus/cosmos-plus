@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Ice Age Collision Course",
+  releaseDate: "2016-06-23",
+  rating: 6.1,
+  banner: "movies/ice-age-collision-course/content/poster-mid.webp",
+  link: "movies/ice-age-collision-course/splash.html"
+},
+
+{
   title: "Ice Age Dawn of the Dinosaurs",
   releaseDate: "2009-06-26",
   rating: 6.8,
