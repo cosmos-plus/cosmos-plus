@@ -2,14 +2,6 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
-  title: "Den of Thieves 2 Pantera",
-  releaseDate: "2025-01-08",
-  rating: 6.4,
-  banner: "movies/den-of-thieves-2-pantera/content/poster-mid.webp",
-  link: "movies/den-of-thieves-2-pantera/splash.html"
-},
-
-{
   title: "Shooter",
   releaseDate: "2007-03-22",
   rating: 7.1,
