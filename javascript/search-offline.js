@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Ice Age The Meltdown",
+  releaseDate: "2006-03-29",
+  rating: 6.7,
+  banner: "movies/ice-age-the-meltdown/content/poster-mid.webp",
+  link: "movies/ice-age-the-meltdown/splash.html"
+},
+
+{
   title: "Ice Age",
   releaseDate: "2002-03-10",
   rating: 7.4,
