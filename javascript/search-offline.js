@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Oppenheimer",
+  releaseDate: "2023-07-19",
+  rating: 8.1,
+  banner: "movies/oppenheimer/content/poster-mid.webp",
+  link: "movies/oppenheimer/splash.html"
+},
+
+{
   title: "Forrest Gump",
   releaseDate: "1994-06-23",
   rating: 8.5,
