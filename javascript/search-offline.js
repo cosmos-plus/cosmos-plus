@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Whiplash",
+  releaseDate: "2014-10-10",
+  rating: 8.4,
+  banner: "movies/whiplash/content/poster-mid.webp",
+  link: "movies/whiplash/splash.html"
+},
+
+{
   title: "The Shawshank Redemption",
   releaseDate: "1994-09-23",
   rating: 8.7,
