@@ -2,11 +2,19 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Gladiator",
+  releaseDate: "2000-05-04",
+  rating: 8.2,
+  banner: "movies/gladiator/content/poster-mid.webp",
+  link: "movies/gladiator/splash.html"
+},
+
+{
   title: "(500) Days of Summer",
   releaseDate: "2009-07-17",
   rating: 7.3,
-  banner: "movies/(500)-days-of-summer/content/poster-mid.webp",
-  link: "movies/(500)-days-of-summer/splash.html"
+  banner: "movies/500-days-of-summer/content/poster-mid.webp",
+  link: "movies/500-days-of-summer/splash.html"
 },
 
 {
