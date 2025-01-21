@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Iron Giant",
+  releaseDate: "1999-08-06",
+  rating: 7.9,
+  banner: "movies/the-iron-giant/content/poster-mid.webp",
+  link: "movies/the-iron-giant/splash.html"
+},
+
+{
   title: "Ice Age Continental Drift",
   releaseDate: "2012-06-27",
   rating: 6.4,
