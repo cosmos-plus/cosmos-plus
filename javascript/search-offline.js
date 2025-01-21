@@ -2,19 +2,19 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
-  title: "The Wolf of Wall Street",
-  releaseDate: "2013-12-25",
-  rating: 8.0,
-  banner: "movies/the-wolf-of-wall-street/content/poster-mid.webp",
-  link: "movies/the-wolf-of-wall-street/splash.html"
-},
-
-{
   title: "Star Wars: Skeleton Crew",
   releaseDate: "2024-12-02",
   rating: 7.1,
   banner: "tv-shows/star-wars-skeleton-crew/poster-mid.webp",
   link: "tv-shows/star-wars-skeleton-crew/splash1.html"
+},
+
+{
+  title: "The Wolf of Wall Street",
+  releaseDate: "2013-12-25",
+  rating: 8.0,
+  banner: "movies/the-wolf-of-wall-street/content/poster-mid.webp",
+  link: "movies/the-wolf-of-wall-street/splash.html"
 },
 
 {
