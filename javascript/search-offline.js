@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Matrix Reloaded",
+  releaseDate: "2003-05-15",
+  rating: 7.1,
+  banner: "movies/the-matrix-reloaded/content/poster-mid.webp",
+  link: "movies/the-matrix-reloaded/splash.html"
+},
+
+{
   title: "The Matrix Revolutions",
   releaseDate: "2003-11-05",
   rating: 6.7,
