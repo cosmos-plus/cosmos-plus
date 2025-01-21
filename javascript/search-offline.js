@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Back to the Future Part II",
+  releaseDate: "1989-11-22",
+  rating: 7.8,
+  banner: "movies/back-to-the-future-part-ii/content/poster-mid.webp",
+  link: "movies/back-to-the-future-part-ii/splash.html"
+},
+
+{
   title: "Back to the Future",
   releaseDate: "1985-07-03",
   rating: 8.3,
