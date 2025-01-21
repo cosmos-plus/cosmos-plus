@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Unbearable Weight of Massive Talent",
+  releaseDate: "2022-04-20",
+  rating: 6.8,
+  banner: "movies/the-unbearable-weight-of-massive-talent/content/poster-mid.webp",
+  link: "movies/the-unbearable-weight-of-massive-talent/splash.html"
+},
+
+{
   title: "End of Watch",
   releaseDate: "2012-09-20",
   rating: 7.3,
