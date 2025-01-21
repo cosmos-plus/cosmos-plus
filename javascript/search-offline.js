@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Barbie",
+  releaseDate: "2023-07-19",
+  rating: 7.0,
+  banner: "movies/barbie/content/poster-mid.webp",
+  link: "movies/barbie/splash.html"
+},
+
+{
   title: "Reacher",
   releaseDate: "2022-02-03",
   rating: 8.1,
