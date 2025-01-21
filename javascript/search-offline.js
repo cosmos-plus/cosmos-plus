@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Trading Places",
+  releaseDate: "1983-06-07",
+  rating: 7.2,
+  banner: "movies/trading-places/content/poster-mid.webp",
+  link: "movies/trading-places/splash.html"
+},
+
+{
   title: "Gladiator",
   releaseDate: "2000-05-04",
   rating: 8.2,
