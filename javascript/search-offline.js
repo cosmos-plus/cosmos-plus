@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Back to the Future",
+  releaseDate: "1985-07-03",
+  rating: 8.3,
+  banner: "movies/back-to-the-future/content/poster-mid.webp",
+  link: "movies/back-to-the-future/splash.html"
+},
+
+{
   title: "Spirited Away",
   releaseDate: "2001-07-20",
   rating: 8.5,
