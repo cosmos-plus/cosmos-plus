@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Snakes on a Plane",
+  releaseDate: "2006-08-17",
+  rating: 5.4,
+  banner: "movies/snakes-on-a-plane/content/poster-mid.webp",
+  link: "movies/snakes-on-a-plane/splash.html"
+},
+
+{
   title: "The Iron Giant",
   releaseDate: "1999-08-06",
   rating: 7.9,
