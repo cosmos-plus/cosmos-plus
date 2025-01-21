@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Interstellar",
+  releaseDate: "2014-11-05",
+  rating: 8.4,
+  banner: "movies/interstellar/content/poster-mid.webp",
+  link: "movies/interstellar/splash.html"
+},
+
+{
   title: "Trading Places",
   releaseDate: "1983-06-07",
   rating: 7.2,
