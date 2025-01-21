@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Truman Show",
+  releaseDate: "1998-06-04",
+  rating: 8.1,
+  banner: "movies/the-truman-show/content/poster-mid.webp",
+  link: "movies/the-truman-show/splash.html"
+},
+
+{
   title: "Star Wars: Skeleton Crew",
   releaseDate: "2024-12-02",
   rating: 7.1,
