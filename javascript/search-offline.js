@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Majestic",
+  releaseDate: "2001-12-21",
+  rating: 6.8,
+  banner: "movies/the-majestic/content/poster-mid.webp",
+  link: "movies/the-majestic/splash.html"
+},
+
+{
   title: "Fight Club",
   releaseDate: "1999-10-15",
   rating: 8.4,

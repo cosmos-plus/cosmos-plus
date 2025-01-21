@@ -175,13 +175,13 @@ body {
 .container {
     display: block;
     position: absolute;
-    bottom: -240px;
+    top: 81dvh;
     left: -380px;
     height: 210px;
     overflow-x: scroll;
     white-space: nowrap;
     width: 100%;
-    padding-bottom: 120px;
+    padding-bottom: 170px;
 
 }
 
@@ -196,7 +196,7 @@ body {
     font-weight: bold;
     width: 100%;
     left: 0;
-    bottom: 80px;
+    top: 77dvh;
 }
 
 }
