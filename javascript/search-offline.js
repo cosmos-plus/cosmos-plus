@@ -2,19 +2,19 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Sonic the Hedgehog",
+  releaseDate: "2020-02-12",
+  rating: 7.3,
+  banner: "movies/sonic-the-hedgehog/content/poster-mid.webp",
+  link: "movies/sonic-the-hedgehog/splash.html"
+},
+
+{
   title: "Flow",
   releaseDate: "2024-08-29",
   rating: 8.4,
   banner: "movies/flow/content/poster-mid.webp",
   link: "movies/flow/splash.html"
-},
-
-{
-  title: "Wicked",
-  releaseDate: "2024-11-20",
-  rating: 7.0,
-  banner: "movies/wicked/content/poster-mid.webp",
-  link: "movies/wicked/splash.html"
 },
 
 {
