@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "End of Watch",
+  releaseDate: "2012-09-20",
+  rating: 7.3,
+  banner: "movies/end-of-watch/content/poster-mid.webp",
+  link: "movies/end-of-watch/splash.html"
+},
+
+{
   title: "Snakes on a Plane",
   releaseDate: "2006-08-17",
   rating: 5.4,
