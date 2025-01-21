@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Spirited Away",
+  releaseDate: "2001-07-20",
+  rating: 8.5,
+  banner: "movies/spirited-away/content/poster-mid.webp",
+  link: "movies/spirited-away/splash.html"
+},
+
+{
   title: "Django Unchained",
   releaseDate: "2012-12-25",
   rating: 8.2,
