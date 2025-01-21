@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Shawshank Redemption",
+  releaseDate: "1994-09-23",
+  rating: 8.7,
+  banner: "movies/the-shawshank-redemption/content/poster-mid.webp",
+  link: "movies/the-shawshank-redemption/splash.html"
+},
+
+{
   title: "Interstellar",
   releaseDate: "2014-11-05",
   rating: 8.4,
