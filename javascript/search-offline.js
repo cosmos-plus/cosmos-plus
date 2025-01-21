@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "WALL·E",
+  releaseDate: "2008-06-22",
+  rating: 8.1,
+  banner: "movies/wall·e/content/poster-mid.webp",
+  link: "movies/wall·e/splash.html"
+},
+
+{
   title: "Whiplash",
   releaseDate: "2014-10-10",
   rating: 8.4,
