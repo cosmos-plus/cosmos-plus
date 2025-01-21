@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "La La Land",
+  releaseDate: "2016-12-01",
+  rating: 7.9,
+  banner: "movies/la-la-land/content/poster-mid.webp",
+  link: "movies/la-la-land/splash.html"
+},
+
+{
   title: "The Matrix Reloaded",
   releaseDate: "2003-05-15",
   rating: 7.1,
