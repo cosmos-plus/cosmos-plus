@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Saving Private Ryan",
+  releaseDate: "1998-07-24",
+  rating: 8.2,
+  banner: "movies/saving-private-ryan/content/poster-mid.webp",
+  link: "movies/saving-private-ryan/splash.html"
+},
+
+{
   title: "The Matrix",
   releaseDate: "1999-03-31",
   rating: 8.2,
