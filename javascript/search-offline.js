@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Forrest Gump",
+  releaseDate: "1994-06-23",
+  rating: 8.5,
+  banner: "movies/forrest-gump/content/poster-mid.webp",
+  link: "movies/forrest-gump/splash.html"
+},
+
+{
   title: "The Truman Show",
   releaseDate: "1998-06-04",
   rating: 8.1,
