@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Django Unchained",
+  releaseDate: "2012-12-25",
+  rating: 8.2,
+  banner: "movies/django-unchained/content/poster-mid.webp",
+  link: "movies/django-unchained/splash.html"
+},
+
+{
   title: "WALL·E",
   releaseDate: "2008-06-22",
   rating: 8.1,
