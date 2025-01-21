@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "(500) Days of Summer",
+  releaseDate: "2009-07-17",
+  rating: 7.3,
+  banner: "movies/(500)-days-of-summer/content/poster-mid.webp",
+  link: "movies/(500)-days-of-summer/splash.html"
+},
+
+{
   title: "The Unbearable Weight of Massive Talent",
   releaseDate: "2022-04-20",
   rating: 6.8,
