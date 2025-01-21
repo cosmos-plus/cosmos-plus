@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Fight Club",
+  releaseDate: "1999-10-15",
+  rating: 8.4,
+  banner: "movies/fight-club/content/poster-mid.webp",
+  link: "movies/fight-club/splash.html"
+},
+
+{
   title: "La La Land",
   releaseDate: "2016-12-01",
   rating: 7.9,
