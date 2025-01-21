@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Matrix",
+  releaseDate: "1999-03-31",
+  rating: 8.2,
+  banner: "movies/the-matrix/content/poster-mid.webp",
+  link: "movies/the-matrix/splash.html"
+},
+
+{
   title: "Back to the Future Part III",
   releaseDate: "1990-05-25",
   rating: 7.5,
