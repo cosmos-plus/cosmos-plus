@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Star Wars: Skeleton Crew",
+  releaseDate: "2024-12-02",
+  rating: 7.1,
+  banner: "tv-shows/star-wars-skeleton-crew/poster-mid.webp",
+  link: "tv-shows/star-wars-skeleton-crew/splash1.html"
+},
+
+{
   title: "The Majestic",
   releaseDate: "2001-12-21",
   rating: 6.8,
