@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Twisters",
+  releaseDate: "2024-07-10",
+  rating: 6.9,
+  banner: "movies/twisters/content/poster-mid.webp",
+  link: "movies/twisters/splash.html"
+},
+
+{
   title: "Pokémon Detective Pikachu",
   releaseDate: "2019-05-03",
   rating: 6.9,
