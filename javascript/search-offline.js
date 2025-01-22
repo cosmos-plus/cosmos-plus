@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Great Gatsby",
+  releaseDate: "2013-05-09",
+  rating: 7.4,
+  banner: "movies/the-great-gatsby/content/poster-mid.webp",
+  link: "movies/the-great-gatsby/splash.html"
+},
+
+{
   title: "Bowfinger",
   releaseDate: "1999-08-12",
   rating: 6.2,
