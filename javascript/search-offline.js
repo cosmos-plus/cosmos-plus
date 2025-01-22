@@ -2,11 +2,11 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
-  title: "Once Upon a Time... in Hollywood",
-  releaseDate: "2019-07-24",
-  rating: 7.4,
-  banner: "movies/once-upon-a-time...-in-hollywood/content/poster-mid.webp",
-  link: "movies/once-upon-a-time...-in-hollywood/splash.html"
+  title: "Pokémon Detective Pikachu",
+  releaseDate: "2019-05-03",
+  rating: 6.9,
+  banner: "movies/pokémon-detective-pikachu/content/poster-mid.webp",
+  link: "movies/pokémon-detective-pikachu/splash.html"
 },
 
 {
