@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Young Woman and the Sea",
+  releaseDate: "2024-05-31",
+  rating: 7.9,
+  banner: "movies/young-woman-and-the-sea/content/poster-mid.webp",
+  link: "movies/young-woman-and-the-sea/splash.html"
+},
+
+{
   title: "Sometimes I Think About Dying",
   releaseDate: "2024-01-10",
   rating: 6.4,
