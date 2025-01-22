@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Titanic",
+  releaseDate: "1997-11-18",
+  rating: 7.9,
+  banner: "movies/titanic/content/poster-mid.webp",
+  link: "movies/titanic/splash.html"
+},
+
+{
   title: "The Great Gatsby",
   releaseDate: "2013-05-09",
   rating: 7.4,
