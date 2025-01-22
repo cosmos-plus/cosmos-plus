@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Notebook",
+  releaseDate: "2004-05-25",
+  rating: 7.9,
+  banner: "movies/the-notebook/content/poster-mid.webp",
+  link: "movies/the-notebook/splash.html"
+},
+
+{
   title: "Young Woman and the Sea",
   releaseDate: "2024-05-31",
   rating: 7.9,
