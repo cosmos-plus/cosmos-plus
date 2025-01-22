@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Sometimes I Think About Dying",
+  releaseDate: "2024-01-10",
+  rating: 6.4,
+  banner: "movies/sometimes-i-think-about-dying/content/poster-mid.webp",
+  link: "movies/sometimes-i-think-about-dying/splash.html"
+},
+
+{
   title: "50 First Dates",
   releaseDate: "2004-02-13",
   rating: 6.9,
