@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Me Before You",
+  releaseDate: "2016-06-01",
+  rating: 7.9,
+  banner: "movies/me-before-you/content/poster-mid.webp",
+  link: "movies/me-before-you/splash.html"
+},
+
+{
   title: "The Notebook",
   releaseDate: "2004-05-25",
   rating: 7.9,
