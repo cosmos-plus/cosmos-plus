@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Atlantis The Lost Empire",
+  releaseDate: "2001-06-02",
+  rating: 7.0,
+  banner: "movies/atlantis-the-lost-empire/content/poster-mid.webp",
+  link: "movies/atlantis-the-lost-empire/splash.html"
+},
+
+{
   title: "John Wick Chapter 4",
   releaseDate: "2023-03-22",
   rating: 7.7,
