@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Anyone But You",
+  releaseDate: "2023-12-21",
+  rating: 6.9,
+  banner: "movies/anyone-but-you/content/poster-mid.webp",
+  link: "movies/anyone-but-you/splash.html"
+},
+
+{
   title: "Dune Part Two",
   releaseDate: "2024-02-27",
   rating: 8.2,
