@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Interstella 5555 The 5tory of the 5ecret 5tar 5ystem",
+  releaseDate: "2003-05-28",
+  rating: 7.8,
+  banner: "movies/interstella-5555-the-5tory-of-the-5ecret-5tar-5ystem/content/poster-mid.webp",
+  link: "movies/interstella-5555-the-5tory-of-the-5ecret-5tar-5ystem/splash.html"
+},
+
+{
   title: "Me Before You",
   releaseDate: "2016-06-01",
   rating: 7.9,
