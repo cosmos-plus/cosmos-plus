@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "50 First Dates",
+  releaseDate: "2004-02-13",
+  rating: 6.9,
+  banner: "movies/50-first-dates/content/poster-mid.webp",
+  link: "movies/50-first-dates/splash.html"
+},
+
+{
   title: "About Time",
   releaseDate: "2013-09-04",
   rating: 7.9,
