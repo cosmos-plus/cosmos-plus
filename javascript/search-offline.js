@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "About Time",
+  releaseDate: "2013-09-04",
+  rating: 7.9,
+  banner: "movies/about-time/content/poster-mid.webp",
+  link: "movies/about-time/splash.html"
+},
+
+{
   title: "The Voyeurs",
   releaseDate: "2021-08-25",
   rating: 6.6,
