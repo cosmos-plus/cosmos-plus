@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "John Wick Chapter 2",
+  releaseDate: "2017-02-08",
+  rating: 7.3,
+  banner: "movies/john-wick-chapter-2/content/poster-mid.webp",
+  link: "movies/john-wick-chapter-2/splash.html"
+},
+
+{
   title: "John Wick",
   releaseDate: "2014-10-22",
   rating: 7.4,
