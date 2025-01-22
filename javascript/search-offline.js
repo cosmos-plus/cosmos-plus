@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "John Wick Chapter 3 - Parabellum",
+  releaseDate: "2019-05-15",
+  rating: 7.4,
+  banner: "movies/john-wick-chapter-3---parabellum/content/poster-mid.webp",
+  link: "movies/john-wick-chapter-3---parabellum/splash.html"
+},
+
+{
   title: "John Wick Chapter 2",
   releaseDate: "2017-02-08",
   rating: 7.3,
