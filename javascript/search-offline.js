@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Once Upon a Time... in Hollywood",
+  releaseDate: "2019-07-24",
+  rating: 7.4,
+  banner: "movies/once-upon-a-time...-in-hollywood/content/poster-mid.webp",
+  link: "movies/once-upon-a-time...-in-hollywood/splash.html"
+},
+
+{
   title: "Titanic",
   releaseDate: "1997-11-18",
   rating: 7.9,
