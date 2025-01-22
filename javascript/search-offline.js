@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Bowfinger",
+  releaseDate: "1999-08-12",
+  rating: 6.2,
+  banner: "movies/bowfinger/content/poster-mid.webp",
+  link: "movies/bowfinger/splash.html"
+},
+
+{
   title: "Atlantis The Lost Empire",
   releaseDate: "2001-06-02",
   rating: 7.0,
