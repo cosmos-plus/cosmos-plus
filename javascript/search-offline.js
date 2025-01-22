@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "John Wick",
+  releaseDate: "2014-10-22",
+  rating: 7.4,
+  banner: "movies/john-wick/content/poster-mid.webp",
+  link: "movies/john-wick/splash.html"
+},
+
+{
   title: "Sonic the Hedgehog 3",
   releaseDate: "2024-12-19",
   rating: 7.6,
