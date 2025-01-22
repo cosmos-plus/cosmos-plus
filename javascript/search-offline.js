@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Sonic the Hedgehog 3",
+  releaseDate: "2024-12-19",
+  rating: 7.6,
+  banner: "movies/sonic-the-hedgehog-3/content/poster-mid.webp",
+  link: "movies/sonic-the-hedgehog-3/splash.html"
+},
+
+{
   title: "Sonic the Hedgehog 2",
   releaseDate: "2022-03-30",
   rating: 7.5,
