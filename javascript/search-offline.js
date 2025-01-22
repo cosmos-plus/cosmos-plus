@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Voyeurs",
+  releaseDate: "2021-08-25",
+  rating: 6.6,
+  banner: "movies/the-voyeurs/content/poster-mid.webp",
+  link: "movies/the-voyeurs/splash.html"
+},
+
+{
   title: "Anyone But You",
   releaseDate: "2023-12-21",
   rating: 6.9,
