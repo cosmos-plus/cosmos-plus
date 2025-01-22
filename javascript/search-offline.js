@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Dune Part Two",
+  releaseDate: "2024-02-27",
+  rating: 8.2,
+  banner: "movies/dune-part-two/content/poster-mid.webp",
+  link: "movies/dune-part-two/splash.html"
+},
+
+{
   title: "Dune",
   releaseDate: "2021-09-15",
   rating: 7.8,
