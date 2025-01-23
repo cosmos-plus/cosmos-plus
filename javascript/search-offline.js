@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Memoir of a Snail",
+  releaseDate: "2024-10-17",
+  rating: 7.8,
+  banner: "movies/memoir-of-a-snail/content/poster-mid.webp",
+  link: "movies/memoir-of-a-snail/splash.html"
+},
+
+{
   title: "INVINCIBLE",
   releaseDate: "2021-03-25",
   rating: 8.6,
