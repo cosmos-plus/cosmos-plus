@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "INVINCIBLE",
+  releaseDate: "2021-03-25",
+  rating: 8.6,
+  banner: "tv-shows/invincible/poster-mid.webp",
+  link: "tv-shows/invincible/splash1.html"
+},
+
+{
   title: "Interstella 5555 The 5tory of the 5ecret 5tar 5ystem",
   releaseDate: "2003-05-28",
   rating: 7.8,
