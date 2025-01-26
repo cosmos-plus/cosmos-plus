@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Secret Level",
+  releaseDate: "2024-12-10",
+  rating: 7.5,
+  banner: "tv-shows/secret-level/poster-mid.webp",
+  link: "tv-shows/secret-level/splash1.html"
+},
+
+{
   title: "Memoir of a Snail",
   releaseDate: "2024-10-17",
   rating: 7.8,
