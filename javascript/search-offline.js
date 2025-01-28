@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Me, Myself  Irene",
+  releaseDate: "2000-06-22",
+  rating: 6.6,
+  banner: "movies/me,-myself--irene/content/poster-mid.webp",
+  link: "movies/me,-myself--irene/splash.html"
+},
+
+{
   title: "Secret Level",
   releaseDate: "2024-12-10",
   rating: 7.5,
