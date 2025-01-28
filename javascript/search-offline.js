@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Good Will Hunting",
+  releaseDate: "1997-12-05",
+  rating: 8.2,
+  banner: "movies/good-will-hunting/content/poster-mid.webp",
+  link: "movies/good-will-hunting/splash.html"
+},
+
+{
   title: "Me, Myself  Irene",
   releaseDate: "2000-06-22",
   rating: 6.6,
