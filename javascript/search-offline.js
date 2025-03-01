@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Top Gun",
+  releaseDate: "1986-05-16",
+  rating: 7.1,
+  banner: "movies/top-gun/content/poster-mid.webp",
+  link: "movies/top-gun/splash.html"
+},
+
+{
   title: "Good Will Hunting",
   releaseDate: "1997-12-05",
   rating: 8.2,
