@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "When We First Met",
+  releaseDate: "2018-02-09",
+  rating: 6.6,
+  banner: "movies/when-we-first-met/content/poster-mid.webp",
+  link: "movies/when-we-first-met/splash.html"
+},
+
+{
   title: "Top Gun",
   releaseDate: "1986-05-16",
   rating: 7.1,
