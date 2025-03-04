@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Menu",
+  releaseDate: "2022-11-17",
+  rating: 7.2,
+  banner: "movies/the-menu/content/poster-mid.webp",
+  link: "movies/the-menu/splash.html"
+},
+
+{
   title: "When We First Met",
   releaseDate: "2018-02-09",
   rating: 6.6,
