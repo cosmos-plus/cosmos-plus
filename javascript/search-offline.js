@@ -2,6 +2,22 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Paddington in Peru",
+  releaseDate: "2024-11-08",
+  rating: 6.8,
+  banner: "movies/paddington-in-peru/content/poster-mid.webp",
+  link: "movies/paddington-in-peru/splash.html"
+},
+
+{
+  title: "Shaun of the Dead",
+  releaseDate: "2004-04-09",
+  rating: 7.5,
+  banner: "movies/shaun-of-the-dead/content/poster-mid.webp",
+  link: "movies/shaun-of-the-dead/splash.html"
+},
+
+{
   title: "Zombieland Double Tap",
   releaseDate: "2019-10-09",
   rating: 6.9,
