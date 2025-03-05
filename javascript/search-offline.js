@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Christopher Robin",
+  releaseDate: "2018-08-01",
+  rating: 7.3,
+  banner: "movies/christopher-robin/content/poster-mid.webp",
+  link: "movies/christopher-robin/splash.html"
+},
+
+{
   title: "Paddington in Peru",
   releaseDate: "2024-11-08",
   rating: 6.8,
