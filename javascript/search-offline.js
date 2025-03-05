@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Zombieland Double Tap",
+  releaseDate: "2019-10-09",
+  rating: 6.9,
+  banner: "movies/zombieland-double-tap/content/poster-mid.webp",
+  link: "movies/zombieland-double-tap/splash.html"
+},
+
+{
   title: "Zombieland",
   releaseDate: "2009-10-02",
   rating: 7.3,
