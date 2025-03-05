@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Zombieland",
+  releaseDate: "2009-10-02",
+  rating: 7.3,
+  banner: "movies/zombieland/content/poster-mid.webp",
+  link: "movies/zombieland/splash.html"
+},
+
+{
   title: "The Menu",
   releaseDate: "2022-11-17",
   rating: 7.2,
