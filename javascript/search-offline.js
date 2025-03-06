@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Paddington 2",
+  releaseDate: "2017-11-09",
+  rating: 7.5,
+  banner: "movies/paddington-2/content/poster-mid.webp",
+  link: "movies/paddington-2/splash.html"
+},
+
+{
   title: "Reacher",
   releaseDate: "2022-02-03",
   rating: 8.1,
