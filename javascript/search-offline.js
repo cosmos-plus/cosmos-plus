@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Peaky Blinders",
+  releaseDate: "2013-09-12",
+  rating: 8.5,
+  banner: "tv-shows/peaky-blinders/poster-mid.webp",
+  link: "tv-shows/peaky-blinders/splash1.html"
+},
+
+{
   title: "Paddington 2",
   releaseDate: "2017-11-09",
   rating: 7.5,
