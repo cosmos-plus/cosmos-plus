@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Reacher",
+  releaseDate: "2022-02-03",
+  rating: 8.1,
+  banner: "tv-shows/reacher/poster-mid.webp",
+  link: "tv-shows/reacher/splash1.html"
+},
+
+{
   title: "Christopher Robin",
   releaseDate: "2018-08-01",
   rating: 7.3,
@@ -311,14 +319,6 @@ const movies = [
   rating: 7.0,
   banner: "movies/barbie/content/poster-mid.webp",
   link: "movies/barbie/splash.html"
-},
-
-{
-  title: "Reacher",
-  releaseDate: "2022-02-03",
-  rating: 8.1,
-  banner: "tv-shows/reacher/poster-mid.webp",
-  link: "tv-shows/reacher/splash1.html"
 },
 
 {
