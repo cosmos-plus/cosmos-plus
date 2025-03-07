@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Ministry of Ungentlemanly Warfare",
+  releaseDate: "2024-04-18",
+  rating: 7.1,
+  banner: "movies/the-ministry-of-ungentlemanly-warfare/content/poster-mid.webp",
+  link: "movies/the-ministry-of-ungentlemanly-warfare/splash.html"
+},
+
+{
   title: "Peaky Blinders",
   releaseDate: "2013-09-12",
   rating: 8.5,
