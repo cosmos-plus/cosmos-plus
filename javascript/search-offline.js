@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Emperors New Groove",
+  releaseDate: "2000-12-15",
+  rating: 7.6,
+  banner: "movies/the-emperors-new-groove/content/poster-mid.webp",
+  link: "movies/the-emperors-new-groove/splash.html"
+},
+
+{
   title: "The Ministry of Ungentlemanly Warfare",
   releaseDate: "2024-04-18",
   rating: 7.1,
