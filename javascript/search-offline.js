@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Love  Other Drugs",
+  releaseDate: "2010-11-04",
+  rating: 7.0,
+  banner: "movies/love--other-drugs/content/poster-mid.webp",
+  link: "movies/love--other-drugs/splash.html"
+},
+
+{
   title: "Rush Hour 3",
   releaseDate: "2007-08-08",
   rating: 6.5,
