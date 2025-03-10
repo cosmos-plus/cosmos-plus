@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Rush Hour",
+  releaseDate: "1998-09-18",
+  rating: 7.0,
+  banner: "movies/rush-hour/content/poster-mid.webp",
+  link: "movies/rush-hour/splash.html"
+},
+
+{
   title: "The Emperors New Groove",
   releaseDate: "2000-12-15",
   rating: 7.6,
