@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Rush Hour 2",
+  releaseDate: "2001-08-03",
+  rating: 6.7,
+  banner: "movies/rush-hour-2/content/poster-mid.webp",
+  link: "movies/rush-hour-2/splash.html"
+},
+
+{
   title: "Rush Hour",
   releaseDate: "1998-09-18",
   rating: 7.0,
