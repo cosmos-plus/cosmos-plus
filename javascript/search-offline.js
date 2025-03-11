@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Elemental",
+  releaseDate: "2023-06-14",
+  rating: 7.6,
+  banner: "movies/elemental/content/poster-mid.webp",
+  link: "movies/elemental/splash.html"
+},
+
+{
   title: "Love  Other Drugs",
   releaseDate: "2010-11-04",
   rating: 7.0,
