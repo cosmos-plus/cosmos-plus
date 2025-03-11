@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Ford v Ferrari",
+  releaseDate: "2019-11-13",
+  rating: 8.0,
+  banner: "movies/ford-v-ferrari/content/poster-mid.webp",
+  link: "movies/ford-v-ferrari/splash.html"
+},
+
+{
   title: "Elemental",
   releaseDate: "2023-06-14",
   rating: 7.6,
