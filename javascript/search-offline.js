@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Wicked",
+  releaseDate: "2024-11-20",
+  rating: 6.9,
+  banner: "movies/wicked/content/poster-mid.webp",
+  link: "movies/wicked/splash.html"
+},
+
+{
   title: "Ford v Ferrari",
   releaseDate: "2019-11-13",
   rating: 8.0,
