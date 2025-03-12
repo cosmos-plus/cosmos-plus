@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The 13th Warrior",
+  releaseDate: "1999-08-13",
+  rating: 6.7,
+  banner: "movies/the-13th-warrior/content/poster-mid.webp",
+  link: "movies/the-13th-warrior/splash.html"
+},
+
+{
   title: "Wicked",
   releaseDate: "2024-11-20",
   rating: 6.9,
