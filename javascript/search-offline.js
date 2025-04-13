@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "The Big Trail",
+  releaseDate: "1930-11-01",
+  rating: 6.7,
+  banner: "movies/the-big-trail/content/poster-mid.webp",
+  link: "movies/the-big-trail/splash.html"
+},
+
+{
   title: "The 13th Warrior",
   releaseDate: "1999-08-13",
   rating: 6.7,
