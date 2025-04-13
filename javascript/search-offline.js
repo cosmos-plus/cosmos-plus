@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "I Was a Male War Bride",
+  releaseDate: "1949-08-26",
+  rating: 6.9,
+  banner: "movies/i-was-a-male-war-bride/content/poster-mid.webp",
+  link: "movies/i-was-a-male-war-bride/splash.html"
+},
+
+{
   title: "The Big Trail",
   releaseDate: "1930-11-01",
   rating: 6.7,
