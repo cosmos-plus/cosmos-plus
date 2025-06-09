@@ -3,7 +3,7 @@
 .container {
     display: block;
     position: absolute;
-    bottom: -50px;
+    bottom: -54px;
     height: 200px;
     overflow-x: scroll;  /* Enable horizontal scrolling */
     overflow-y: hidden; /* Disable vertical scrolling */
@@ -12,7 +12,6 @@
     margin-left: 375px; /* Adjust the left margin as per your needs */
     margin-right: 80px;
     padding-bottom: 50px;
-    padding-top: 10px;
 }
 
 .Plus {

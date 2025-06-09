@@ -9,6 +9,7 @@
     transform: translate(-10%, -50%);
     top: 50%;
     left: 50%;
+    
 }
 .loader {
   width: 48px;
@@ -21,10 +22,10 @@
 
 @keyframes animloader {
   0% {
-    box-shadow: -72px 0 #FFF inset;
+    box-shadow: 48px 0 #FFF inset;
   }
   100% {
-    box-shadow: 48px 0 #FFF inset;
+    box-shadow: -72px 0 #FFF inset;
   }
 }
     
@@ -33,7 +34,8 @@ html {
   box-sizing: border-box;
   font-family: "YouTube Noto",Roboto,Arial,Helvetica,sans-serif;
   height: 100%;
-  padding-bottom: 100px
+  padding-bottom: 100px;
+  background-color: black;
 }
 .next-button {
   position: absolute;
@@ -65,13 +67,13 @@ html {
 
 }
 .left-controls {
-  display: flex;
+  /* display: flex;
   align-items: center;
   color: #fff;
   position: absolute;
   bottom: 0px;
   width: 100%;
-  height: 100%;
+  height: 100%; */
 }
 
 .back-arrow {
@@ -221,7 +223,7 @@ progress {
   width: 100%;
   height: 8.4px;
   pointer-events: none;
-
+  border: none;
   position: absolute;
   top: 14px;
 }
@@ -244,6 +246,54 @@ progress::-moz-progress-bar {
   cursor: pointer;
   margin: 0
 }
+
+
+
+.buffer {
+  position: absolute;
+  top: 14px;
+  width: 100%;
+  cursor: pointer;
+  margin: 0;
+  border: none; 
+  background-color: #0074d900;
+  z-index: 3;
+}
+
+.bufferprogress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 2px;
+  width: 100%;
+  height: 8.4px;
+  pointer-events: none;
+  z-index: 4;
+  position: absolute;
+  top: 14px;
+}
+.buffer::-webkit-progress-bar {
+  background: #0077ff69;
+  border-radius: 2px;
+  border: none; 
+  z-index: 7;
+}
+.buffer::-webkit-progress-value {
+  background: #0075ff69;
+  border: none; 
+  border-radius: 2px;
+  z-index: 7;
+}
+.buffer::-moz-progress-bar {
+  border: none; 
+  background: #0075ff69;
+  border-radius: 2px;
+  z-index: 7;
+}
+
+
+
+
 .seek:hover + .seek-tooltip {
   display: block
 }
@@ -421,7 +471,9 @@ input[type=range]::-moz-range-thumb {
   border: 1px solid #0075ff;
   background: #0075ff;
   cursor: pointer;
-  margin-top: 5px
+  margin-top: 5px;
+  right: 10px;
+  position: absolute;
 }
 input[type=range]:focus::-moz-range-track {
   outline: 0
