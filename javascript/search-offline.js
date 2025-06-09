@@ -2,6 +2,14 @@ window.addEventListener('load', () => console.log("Search Javascript Loaded"));
 
 const movies = [
 {
+  title: "Brother Bear",
+  releaseDate: "2003-10-23",
+  rating: 7.3,
+  banner: "movies/brother-bear/content/poster-mid.webp",
+  link: "movies/brother-bear/splash.html"
+},
+
+{
   title: "I Was a Male War Bride",
   releaseDate: "1949-08-26",
   rating: 6.9,
