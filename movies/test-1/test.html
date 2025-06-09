@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Custom HLS Video Player</title>
+  <style>
+    body {
+      background: #121212;
+      color: #eee;
+      margin: 0;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    #player-container {
+      position: relative;
+      max-width: 800px;
+      width: 100%;
+      background: #000;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    }
+    video {
+      width: 100%;
+      display: block;
+      background: #000;
+    }
+    #controls {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px;
+      background: rgba(0,0,0,0.7);
+    }
+    button {
+      background: #333;
+      color: #fff;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #555;
+    }
+  </style>
+</head>
+<body>
+
+<div id="player-container">
+  <video id="video" controls></video>
+  <div id="controls">
+    <button id="play-pause">Play</button>
+    <button id="mute">Mute</button>
+    <button id="fullscreen">Fullscreen</button>
+  </div>
+</div>
+
+<!-- hls.js -->
+<script src="hls.js"></script>
+<script>
+  const video = document.getElementById('video');
+  const playPauseBtn = document.getElementById('play-pause');
+  const muteBtn = document.getElementById('mute');
+  const fullscreenBtn = document.getElementById('fullscreen');
+
+  const m3u8Url = 'http://cosmos.plus/segments/playlist.m3u8';  // ← your local/relative playlist
+
+  if (Hls.isSupported()) {
+    const hls = new Hls();
+    hls.loadSource(m3u8Url);
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED, function () {
+      console.log("HLS manifest loaded, ready to play.");
+    });
+  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = m3u8Url;
+  }
+
+  playPauseBtn.addEventListener('click', () => {
+    if (video.paused) {
+      video.play();
+      playPauseBtn.textContent = 'Pause';
+    } else {
+      video.pause();
+      playPauseBtn.textContent = 'Play';
+    }
+  });
+
+  muteBtn.addEventListener('click', () => {
+    video.muted = !video.muted;
+    muteBtn.textContent = video.muted ? 'Unmute' : 'Mute';
+  });
+
+  fullscreenBtn.addEventListener('click', () => {
+    if (video.requestFullscreen) {
+      video.requestFullscreen();
+    } else if (video.webkitRequestFullscreen) {
+      video.webkitRequestFullscreen();
+    } else if (video.msRequestFullscreen) {
+      video.msRequestFullscreen();
+    }
+  });
+</script>
+
+</body>
+</html>
