@@ -10,38 +10,6 @@ const movies = [
 },
 
 {
-  title: "I Was a Male War Bride",
-  releaseDate: "1949-08-26",
-  rating: 6.9,
-  banner: "movies/i-was-a-male-war-bride/content/poster-mid.webp",
-  link: "movies/i-was-a-male-war-bride/splash.html"
-},
-
-{
-  title: "The Big Trail",
-  releaseDate: "1930-11-01",
-  rating: 6.7,
-  banner: "movies/the-big-trail/content/poster-mid.webp",
-  link: "movies/the-big-trail/splash.html"
-},
-
-{
-  title: "The 13th Warrior",
-  releaseDate: "1999-08-13",
-  rating: 6.7,
-  banner: "movies/the-13th-warrior/content/poster-mid.webp",
-  link: "movies/the-13th-warrior/splash.html"
-},
-
-{
-  title: "Wicked",
-  releaseDate: "2024-11-20",
-  rating: 6.9,
-  banner: "movies/wicked/content/poster-mid.webp",
-  link: "movies/wicked/splash.html"
-},
-
-{
   title: "Ford v Ferrari",
   releaseDate: "2019-11-13",
   rating: 8.0,
@@ -207,14 +175,6 @@ const movies = [
   rating: 6.6,
   banner: "movies/me,-myself--irene/content/poster-mid.webp",
   link: "movies/me,-myself--irene/splash.html"
-},
-
-{
-  title: "Secret Level",
-  releaseDate: "2024-12-10",
-  rating: 7.5,
-  banner: "tv-shows/secret-level/poster-mid.webp",
-  link: "tv-shows/secret-level/splash1.html"
 },
 
 {
@@ -1306,27 +1266,27 @@ const movies = [
 }
 ];
 
-let moviesPerPage = 36; // Number of movies to display per page
-let currentPage = 1; // Current page number
+
+let moviesPerPage = 36;
+let currentPage = 1;
 const movieGrid = document.querySelector(".movie-grid");
 const searchInput = document.querySelector("input[type='text']");
 const sortSelect = document.querySelector("#sort");
 
+let previousSortOption = "release_date";
 
-// Sort movies alphabetically with numbers at the end
 function sortMoviesAlphabetically() {
   movies.sort((a, b) => {
     if (isNumberStart(a.title) && !isNumberStart(b.title)) {
-      return 1; // b comes before a
+      return 1;
     } else if (!isNumberStart(a.title) && isNumberStart(b.title)) {
-      return -1; // a comes before b
+      return -1;
     } else {
-      return a.title.localeCompare(b.title); // Sort alphabetically
+      return a.title.localeCompare(b.title);
     }
   });
 }
 
-// Check if a string starts with a number
 function isNumberStart(title) {
   return /^\d/.test(title);
 }
@@ -1336,14 +1296,11 @@ function displayMovies(movies, page) {
   const startIndex = (page - 1) * moviesPerPage;
   const endIndex = startIndex + moviesPerPage;
 
-  // Find the movie you want to display last
   const movieToDisplayLast = movies.find(movie => movie.title === "aaaaaaaainvnqeriqeijnidakj cwqd9-134-iuf13-iu13n-ifu13n4f-iun13i4nf1i3nf");
-
-  // Create a new array without the movie to be displayed last
   const moviesWithoutLast = movies.filter(movie => movie !== movieToDisplayLast);
 
-  const modifiedMovies = moviesWithoutLast.slice(startIndex, endIndex - 1); // Display all but the last movie
-  modifiedMovies.push(movieToDisplayLast); // Add the chosen movie as the last one
+  const modifiedMovies = moviesWithoutLast.slice(startIndex, endIndex - 1);
+  modifiedMovies.push(movieToDisplayLast);
 
   modifiedMovies.forEach(movie => {
     const movieBanner = document.createElement("a");
@@ -1352,9 +1309,9 @@ function displayMovies(movies, page) {
     movieBanner.style.backgroundImage = `url(${movie.banner})`;
 
     if (movie === movieToDisplayLast) {
-      movieBanner.id = "loadMore"; // Set the id for the chosen movie
-      movieBanner.addEventListener("click", () => {
-        // Handle the "loadMore" click event here
+      movieBanner.id = "loadMore";
+      movieBanner.addEventListener("click", (e) => {
+        e.preventDefault();
         moviesPerPage += 18;
         console.log("18 more movies loaded");
         displayMovies(movies, currentPage);
@@ -1365,80 +1322,95 @@ function displayMovies(movies, page) {
   });
 }
 
-
-
 function sortMovies(sortBy) {
   switch (sortBy) {
     case "title":
       sortMoviesAlphabetically();
       break;
     case "year":
-      movies.sort((a, b) => {
-        const dateA = new Date(a.releaseDate);
-        const dateB = new Date(b.releaseDate);
-
-        if (dateA.getTime() === dateB.getTime()) {
-          return a.title.localeCompare(b.title);
-        } else {
-          return dateB.getTime() - dateA.getTime();
-        }
-      });
-      break;
     case "release_date":
       movies.sort((a, b) => {
         const dateA = new Date(a.releaseDate);
         const dateB = new Date(b.releaseDate);
-
-        if (dateA.getTime() === dateB.getTime()) {
-          return a.title.localeCompare(b.title);
-        } else {
-          return dateB.getTime() - dateA.getTime();
-        }
+        return dateB - dateA || a.title.localeCompare(b.title);
       });
       break;
     case "rating":
-      movies.sort((a, b) => {
-        if (a.rating === b.rating) {
-          return a.title.localeCompare(b.title);
-        } else {
-          return b.rating - a.rating;
-        }
-      });
+      movies.sort((a, b) => b.rating - a.rating || a.title.localeCompare(b.title));
       break;
+    case "random":
+      pickRandomMovie();
+      return;
     default:
       break;
   }
   displayMovies(movies, currentPage);
 }
 
+function pickRandomMovie() {
+  sortSelect.value = previousSortOption;
+  localStorage.setItem("selectedSort", previousSortOption);
+  const selectableMovies = movies.filter(movie => movie.link !== "#*");
+  const randomMovie = selectableMovies[Math.floor(Math.random() * selectableMovies.length)];
+  if (randomMovie) {
+    window.open(randomMovie.link, "_blank");
+  }
+}
 
-sortSelect.addEventListener("change", (event) => {
-  const selectedSortOption = event.target.value;
-  sortMovies(selectedSortOption); // Call the sorting function with the selected option
-  filterMovies(searchInput.value); // Reapply the filter based on the current search term
-});
 
 function filterMovies(searchTerm) {
-  const filteredMovies = movies.filter(movie => {
-    return movie.title.toLowerCase().includes(searchTerm.toLowerCase());
-  });
-  displayMovies(filteredMovies, currentPage); // Display filtered movies on the current page
+  const filteredMovies = movies.filter(movie => movie.title.toLowerCase().includes(searchTerm.toLowerCase()));
+  displayMovies(filteredMovies, currentPage);
 }
 
 function initializePage() {
-  sortMovies("release_date");
-  displayMovies(movies, currentPage);
-  filterMovies("");
+  const savedSort = localStorage.getItem("selectedSort");
+  const savedSearch = localStorage.getItem("searchTerm");
+
+  localStorage.removeItem("searchTerm");
+  searchInput.value = "";
+
+  if (savedSort) {
+    previousSortOption = savedSort;
+    sortSelect.value = savedSort;
+    sortMovies(savedSort);
+  } else {
+    sortMovies("release_date");
+  }
+}
+
+searchInput.addEventListener("input", () => {
+  const searchTerm = searchInput.value;
+  localStorage.setItem("searchTerm", searchTerm);
+  filterMovies(searchTerm);
+});
+
+sortSelect.addEventListener("change", (event) => {
+  const selectedSortOption = event.target.value;
+
+  if (selectedSortOption !== "random") {
+    previousSortOption = selectedSortOption;
+    localStorage.setItem("selectedSort", selectedSortOption);
+  }
+
+  sortMovies(selectedSortOption);
+
+  // Reload the stored search term and re-filter
+  const savedSearch = localStorage.getItem("searchTerm");
+  if (savedSearch) {
+    searchInput.value = savedSearch;
+    filterMovies(savedSearch);
+  } else {
+    filterMovies("");
+  }
+});
+
+// Add Random option if it doesn’t exist yet
+if (!document.querySelector("#sort option[value='random']")) {
+  const randomOption = document.createElement("option");
+  randomOption.value = "random";
+  randomOption.textContent = "Random";
+  sortSelect.appendChild(randomOption);
 }
 
 window.addEventListener('load', initializePage);
-
-searchInput.addEventListener("input", () => {
-  filterMovies(searchInput.value);
-});
-
-sortSelect.addEventListener("change", () => {
-  sortMovies(sortSelect.value);
-});
-
-
