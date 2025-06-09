@@ -160,6 +160,18 @@ function updateTimeElapsed() {
         }
     }
 
+    const loaderContainer = document.querySelector('.loader-container');
+
+    video.addEventListener('waiting', () => {
+      loaderContainer.style.zIndex = '999999';
+    });
+    
+    video.addEventListener('playing', () => {
+      loaderContainer.style.zIndex = '';
+    });
+    
+
+
     // If the current link doesn't exist, add it to local storage
     if (!linkExists) {
         for (let i = 9; i >= 2; i--) {
@@ -236,6 +248,36 @@ function updateVolume() {
 
   video.volume = volume.value;
 }
+
+
+// Create a new buffered progress element
+const bufferedBar = document.createElement('progress');
+bufferedBar.id = 'buffered-bar';
+bufferedBar.value = 0; // Reset on reload
+bufferedBar.max = 100;
+bufferedBar.classList.add('buffer');
+progressBar.parentElement.insertBefore(bufferedBar, progressBar);
+
+// Reset the buffered progress when the page reloads
+window.addEventListener('load', () => {
+  bufferedBar.value = 0;
+});
+
+// Function to update buffered progress
+function updateBuffered() {
+  if (video.buffered.length > 0) {
+    const bufferedEnd = video.buffered.end(video.buffered.length - 1);
+    const duration = video.duration;
+    bufferedBar.value = (bufferedEnd / duration) * 100;
+  }
+}
+
+// Listen for 'progress' event to update buffering status
+video.addEventListener('progress', updateBuffered);
+video.addEventListener('timeupdate', updateBuffered);
+video.addEventListener('loadedmetadata', updateBuffered);
+
+
 
 // updateVolumeIcon updates the volume icon so that it correctly reflects
 // the volume of the video
@@ -450,6 +492,19 @@ document.onmousemove = function(){
  
   }, 2000);
 }
+
+
+if ('mediaSession' in navigator) {
+  const mediaTitle = document.getElementById("title-text")?.textContent || "Unknown Title"; 
+
+navigator.mediaSession.metadata = new MediaMetadata({
+    title: mediaTitle,
+    artist: "Cosmos+",
+});
+}
+  
+
+
 // Add eventlisteners here
 playButton.addEventListener('click', togglePlay);
 video.addEventListener('play', updatePlayButton);

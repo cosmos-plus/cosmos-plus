@@ -33,3 +33,4 @@ userIcon.addEventListener('click', () => {
     iconOptions.style.display = 'none';
   }
 });
+

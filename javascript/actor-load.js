@@ -1,3 +1,7 @@
+
+window.addEventListener('load',   console.log ("Actor Icon Javascript Loaded"));
+
+
 function validateActorImages() {
   for (let i = 1; i <= 3; i++) {
     // Get the image element for each actor
